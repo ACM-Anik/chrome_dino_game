@@ -4,7 +4,7 @@ import {
     getCustomProperty,
 } from "./updateCustomProperty.js";
 
-console.log("hello dino");
+// console.log("hello dino");
 
 const dinoElem = document.querySelector("[data-dino]");
 const JUMP_SPEED = 0.45;

@@ -4,10 +4,10 @@ import {
     getCustomProperty,
 } from "./updateCustomProperty.js";
 
-console.log("hello cactus");
+// console.log("hello cactus");
 
 const SPEED = 0.05;
-const CACTUS_INTERVAL_MIN = 500;
+const CACTUS_INTERVAL_MIN = 600;
 const CACTUS_INTERVAL_MAX = 2000;
 const worldElem = document.querySelector("[data-world]");
 
