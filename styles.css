@@ -1,0 +1,48 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    user-select: none;
+}
+
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.world {
+    overflow: hidden;
+    position: relative;
+}
+
+.score {
+    position: absolute;
+    font-size: 3vmin;
+    right: 1vmin;
+    top: 1vmin;
+}
+
+/*
+font-size: 3vmin; - This sets the font size to 3 times the minimum of the viewport's width and height. The vmin unit is relative to the smaller of the two: viewport width or height.
+
+right: 1vmin; - This positions the element at a distance of 1% of the viewport's minimum dimension (width or height) from the right edge.
+
+top: 1vmin; - This positions the element at a distance of 1% of the viewport's minimum dimension (width or height) from the top edge.
+
+These units (vmin) are relative to the viewport size, providing a responsive design that adapts to different screen sizes. 
+ */
+
+.start-screen {
+    position: absolute;
+    font-size: 5vmin;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.hide {
+    display: none;
+}
